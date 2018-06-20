@@ -1,0 +1,47 @@
+
+
+<html>
+   <head>
+      
+  <link rel="stylesheet" href="style.css">
+
+      <script type="text/javascript" src="script.js">
+                  </script>
+   </head>
+   <body>
+    <div class="leftDiv">
+      <form name=tictactoe>
+         <input class="btn" type="button" name="b1" value="" onclick=changeBox(this)>
+         <input class="btn" type="button" name="b2" value="" onclick=changeBox(this)>
+         <input class="btn" type="button" name="b3" value="" onclick=changeBox(this)>
+         <br> 
+         <input class="btn" type="button" name="b4" value="" onclick=changeBox(this)>
+         <input class="btn" type="button" name="b5" value="" onclick=changeBox(this)>
+         <input class="btn" type="button" name="b6" value="" onclick=changeBox(this)>
+         <br>
+         <input class="btn" type="button" name="b7" value="" onclick=changeBox(this)>
+         <input class="btn" type="button" name="b8" value="" onclick=changeBox(this)>
+         <input class="btn" type="button" name="b9" value="" onclick=changeBox(this)>
+         <br>
+         <br>
+      </form>
+      </div>
+      <div class="rightDiv">
+      <form name=score>
+         Next Move: <input type="text" name="currentMove" value="O" size="2"> </br>
+         <input class="btn2 type="reset" value="Play Again" onclick="clearBtn()">
+         </br>
+         </BR>
+         <h4> Score: </h4>
+         Player 1 <input type="text" id="oscore" name="oscore" value="0" size=3>
+         Player 2 <input type="text" id="xscore" name="xscore" value="0" size=3> 
+         </br>
+         <input class="btn2" type="reset" value="RESET SCORE AND GAME" onclick="erase()">
+         </br>
+      </form>
+
+      <div class="timer"> <h3> Timer: </h3>  <span id="time">03:00</span></div>
+    </div>
+   </body>
+</html>
+

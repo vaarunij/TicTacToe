@@ -1,0 +1,36 @@
+input.btn {
+	background-color: white;
+	color: black;
+	font-size: .5in;
+	font-family: "Courier New", "Courier";
+	font-weight: bold;
+	width: 1in;
+	height: 1in;
+}
+
+.leftDiv {
+	width: 50%;
+	float: left; 
+	
+}
+
+.rightDiv {
+	width: 50%;
+	float: right;
+
+}
+
+input.btn2 {
+	background-color: DodgerBlue;
+	color: white;
+	border-radius: 10px; 
+	text-align: center;
+	width: 200px;
+	height: 35px;
+	margin-top: 10px;
+
+}
+
+span {
+	font-size: 40px;
+}
